@@ -11,8 +11,8 @@ export default NextAuth({
         CredentialsProvider({
             name : 'credentials',
             credentials : {
-                email : {lable : 'email', type: 'text'},
-                password : {lable : 'password', type: 'password'}
+                email : {label : 'email', type: 'text'},
+                password : {label : 'password', type: 'password'}
             },
             async authorize(credentials) {
                 if(!credentials?.email || !credentials.password) {
