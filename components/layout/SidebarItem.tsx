@@ -1,5 +1,5 @@
 import useCurrentUser from '@/hooks/useCurrentUset';
-import useLoginModal from '@/hooks/useEditModal';
+import useLoginModal from '@/hooks/useLoginModal';
 import { useRouter } from 'next/router';
 import React, { useCallback } from 'react'
 import { IconType } from 'react-icons'

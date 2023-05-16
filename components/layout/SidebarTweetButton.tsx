@@ -1,4 +1,4 @@
-import useLoginModal from '@/hooks/useEditModal'
+import useLoginModal from '@/hooks/useLoginModal'
 import { useRouter } from 'next/router'
 import React, { useCallback } from 'react'
 import {FaFeather} from 'react-icons/fa'
