@@ -1,6 +1,6 @@
 import axios from 'axios'
 import useRegisterModal from '@/hooks/useRegisterModal';
-import useLoginModal from '@/hooks/useLoginModal';
+import useLoginModal from '@/hooks/useEditModal';
 import React, { useCallback, useState } from 'react';
 import { toast } from 'react-hot-toast'
 import { signIn } from 'next-auth/react'
